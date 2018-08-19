@@ -16,7 +16,7 @@ https://play.google.com/store/apps/details?id=be.zvz.newskbot
 
 2. 카카오톡 알림을 on으로 해 둡니다.
 3. 안드로이드 웨어 앱을 설치합니다.
-4. 앱의 에디터 탭에 script.js 붙여넣습니다.
+4. 앱의 에디터 탭에 script.js을 붙여넣습니다.
 5. 앱의 홈 탭의 봇 작동을 키고 스크립트를 리로드합니다.
 
 ## 명령어
