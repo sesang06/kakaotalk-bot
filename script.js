@@ -40,7 +40,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB) {
             if (res.length >= 3){
                 const command = res[1];
                 const argument = res[2];
-                parseCommand(command,argument, sender ,replier);
+                parseCommand(command, argument, sender, replier);
             }
         }
    
@@ -101,7 +101,7 @@ function showLunchTime(replier){
     time -= minutes * 60;
 
     var seconds = parseInt(time % 60, 10);
-    const reply = hours+"시간 "+minutes+"분 "+seconds+"초 후 점심시간입니다!";   
+    const reply = hours+"시간 "+minutes+"분 "+seconds+"초 후 점심 시간입니다!";   
     replier.reply(reply);
 }
 function showOffWork(replier){
@@ -121,7 +121,7 @@ function showOffWork(replier){
 }
 var _MS_PER_DAY = 1000 * 60 * 60 * 24;
 
-// a and b are javascript Date objects
+
 function dateDiffInDays(currentDate, leaveWorkDate) {
     var time = (leaveWorkDate - currentDate) / 1000;
 
